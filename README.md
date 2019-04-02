@@ -1,5 +1,5 @@
-# lab-12-web-server
-## OAuth Provider Name 
+#### frontend-auth-web-server
+## Auth0
 
 ### Research Conducted By: Chris Merritt, Spencer Hirata, Cory Henderson, Gregory Dukes
 
