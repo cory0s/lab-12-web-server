@@ -4,30 +4,37 @@
 ### Research Conducted By: Chris Merritt, Spencer Hirata, Cory Henderson, Gregory Dukes
 
 ### Overall Score and Comments
-#### Score (Out of 10): 7
+#### Score (Out of 10): 6
 #### General Comments
-Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability
+Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability:
+
+We were looking into intergrating this login system into our full stack app. The documentation was clear if we were starting from scratch, but we were running into issues with integrating with an existing code base. We had trouble with the ordering of the middleware functions- it was unclear which middleware function was supposed to run first. If implemented correctly, the login system would have been seamless, scalable and flexible.
 
 #### Pros
-* Item 1
-* Item 2
+* Gave good code examples for general setup. Clearly defined process for what code needed to be added.
+* Great scalability if implemented correctly. 
+* Addition of multiple login sources is possible without having to provide any additional code.
 
 #### Cons
-* Item 1
-* Item 2
+* Documentation did not give clear instruction of ordering of middleware. 
+* Code examples were easy to copy into the project, but not well explained.
 
 ### Ratings and Reviews
 #### Documentation
-Thoughts go here
+Good step by step installation process with clear code examples. However, they were not explained in an understandable way. Did not give clear documentation for ordering middleware.
 
 #### Systems Requirements
-Above and beyond 'node' and 'linux', what dependencies or core requirements exist for this framework?  Can it play at AWS/Heroku?  Does it require a certain database?
+* Express-Session
+* Passport
+* Passport-auth0
+
 
 #### Ramp-Up Projections
-How long would/should it take a team of mid-junior developers to become productive?
+3 Hours, depending on any road blocks in their way.
 
 #### Community Support and Adoption levels
-How popular is this framework? What big companies are running on it? How is it "seen" in the general JS community?  Is there an active community of developers supporting and growing it?
+* This is a very popular framework that many companies are using. They have automatic login systems for Google Facebook, Windows, Github and linkedIn. 
+* It usually has a great reputation among the javascript community, and is known as being an easier system to implement.
 
 
 ### Links and Resources
