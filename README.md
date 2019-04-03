@@ -52,7 +52,7 @@ Good step by step installation process with clear code examples. However, they w
 ### Operating Instructions
 If someone were to download your repo (above), what steps do they need to take to run the application
 * `npm start`
-* Endpoint: `/login
+* Endpoint: `/login`
   * Pops up the Auth0 login window.
   * User then selects the platform they wish to login with.
 
